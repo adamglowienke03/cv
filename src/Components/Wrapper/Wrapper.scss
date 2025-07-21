@@ -1,4 +1,4 @@
-@import '../variables';
+@use '../variables' as *;
 
 .cv-main {
   max-width: 850px;
