@@ -1,0 +1,8 @@
+@use '../variables' as *;
+
+.cv-aboutme {
+  padding: $main-gap;
+  h2 {
+    text-align: center;
+  }
+}

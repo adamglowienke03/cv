@@ -1,3 +1,5 @@
+import './AboutMe.scss';
+
 export function AboutMe({ className }: { className?: string }) {
     return (
         <section className={className}>

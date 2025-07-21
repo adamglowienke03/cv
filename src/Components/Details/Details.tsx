@@ -1,4 +1,5 @@
 import { cvData } from "../types";
+import "./Details.scss";
 
 export function Details({ className }: { className?: string }) {
     return (

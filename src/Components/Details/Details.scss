@@ -1,0 +1,7 @@
+@use '../variables' as *;
+
+.cv-details {
+  padding: $main-gap;
+  text-align: center;
+  grid-area: left-bottom;
+}

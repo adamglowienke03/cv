@@ -1,10 +1,10 @@
 import { createRoot } from 'react-dom/client'
 import './style.scss'
-import { Header } from './Components/Header';
-import { Personal } from './Components/Personal';
-import { Details } from './Components/Details';
-import { Wrapper } from './Components/Wrapper';
-import { AboutMe } from './Components/AboutMe';
+import { Header } from './Components/Header/Header';
+import { Personal } from './Components/Personal/Personal';
+import { Details } from './Components/Details/Details';
+import { Wrapper } from './Components/Wrapper/Wrapper';
+import { AboutMe } from './Components/AboutMe/AboutMe';
 
 
 createRoot(document.getElementById('root')!).render(

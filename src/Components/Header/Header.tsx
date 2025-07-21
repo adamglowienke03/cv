@@ -1,4 +1,6 @@
 import { cvData } from '../types';
+import './Header.scss';
+
 export function Header({ className}: { className?: string}) {
   return (
     <header className={className}>

@@ -1,4 +1,5 @@
 import { cvData } from '../types';
+import './Personal.scss';
 
 export function Personal({ className}: { className?: string}) {
   return (

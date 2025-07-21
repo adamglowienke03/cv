@@ -1,0 +1,20 @@
+@use '../variables' as *;
+
+.cv-personal {
+  padding: $main-gap;
+  background-color: $second-color;
+  text-align: center;
+  h2 {
+    font-size: 24px;
+  }
+  p{
+    font-weight: bold;
+  }
+
+  .cv-photo {
+    width: 100%;
+    margin-top: $main-gap;
+    margin-bottom: $main-gap;
+    border-radius: 50%;
+  }
+}
